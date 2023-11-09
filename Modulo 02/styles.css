@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1.0rem;
+}
+
+:root {
+    font-size: 62.5%;
+    --default-border-color: 0.1rem solid #aca3b6;
+    --default-border-radius: 1.2rem;
+}
+aside h1 {
+    font-size: 6.4rem;
+    font-weight: 500;
+    line-height: 7.5rem;
+    text-align: center;
+}
+
+aside h1 span, main h2 span {
+    color: #a256ff;
+}
+
+main {
+    width: 50rem;
+    height: 46rem;
+    border: var(--default-border-color);
+    padding: 4.4rem 5.7rem;
+    border-radius: var(--default-border-radius);
+}
+
+/* entender mais sobre. */
+.content {
+    display: grid;
+    grid-template-areas:
+    ". . . . ."
+    ".hero . form ."
+    ".hero . form ."
+    ". . . . ."
+    ;
+    gap: 5.0rem;
+}
+
+main {
+    grid-area: form;
+    position: relative;
+}
+
+aside {
+    grid-area: hero;
+}
+
+main h2 {
+    max-width: 43rem;
+    font-size: 3.0rem;
+    font-weight: 500;
+}
+
+main .actions {
+    display: flex;
+    flex-flow: column;
+}
+main .actions a {
+    border-radius: var(--default-border-radius);
+    font-size: 2.0rem;
+    height: 4.0rem;
+    background-color: #80b5ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+/* a partir do segundo botão, modifique a cor */
+main .actions a + a {
+    background-color: #49ce90;
+    margin-top: 2.0rem;
+}
+
+main footer p {
+    font-size: 1.3rem;
+    margin-top: 6rem;
+}
+
+main footer a {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    display: block;
+    text-align: center;
+}
+
+aside img {
+    width: 60.0rem;
+    height: 40.0rem;
+    border-radius: var(--default-border-radius);
+    
+}
+
+main header{
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+}
+ main header i {
+    color: #a256ff;
+    font-size: 1.8rem;
+    
+ }
+
+main form label {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+main form :is(input,select) {
+    width: 400px;
+    height: 4.0rem;
+
+    background:#ffff ;
+    border: var(--default-border-color);
+    border-radius: var(--default-border-radius);
+}
+
+main form.points {
+    position: relative;
+
+}
+main form input + button {
+    position: absolute;
+    right: 1.6rem;
+    top: calc(20.0rem + 8.5rem);
+    background-color: transparent;
+    border: none;
+    color:#a256ff;
+    font-size: 2.0rem;
+    cursor: pointer;
+}
