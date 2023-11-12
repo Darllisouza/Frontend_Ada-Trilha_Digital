@@ -4,4 +4,4 @@ A trilha de Web Front-End da Ada oferece uma jornada de aprendizado introdutóri
 Com um total de 53 aulas e 878 minutos de conteúdo , conquistei habilidades no desenvolvimento web. 
 
 
-![Completed]()
+![Completed](/Modulo%2003/anotacoes/completed.png)
