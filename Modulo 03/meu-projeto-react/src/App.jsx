@@ -1,8 +1,8 @@
 //componentes funcionais.
 //um arquivo por componente
-import MeuComponente from "../components/MeuComponente"
-import MeuContador from "../components/MeuContador"
-import MinhaLista from "../components/MinhaLista"
+import MeuComponente from "../src/components/MeuComponente"
+import MeuContador from "../src/components/MeuContador"
+import MinhaLista from "../src/components/MinhaLista"
 
 function App() {
 

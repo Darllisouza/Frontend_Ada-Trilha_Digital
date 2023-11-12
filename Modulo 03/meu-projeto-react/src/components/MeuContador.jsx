@@ -1,6 +1,6 @@
 
 import { useState } from "react"
-import styles from '../src/button.module.css'
+import styles from '../button.module.css'
 /*
 Função que eu chamo dentro do meu componente, o retorno dela é um array com 2 posições
 Renderização condicional - cada usuario em um sistema tem acesso a partes diferente, por ex.
