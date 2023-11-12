@@ -1,0 +1,13 @@
+.myButton {
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    font-size: 1.8rem;
+    padding-right: 3.0rem;
+    padding-left: 3.0rem;
+    color:#070707;
+    border-radius: 2.0rem;
+    background-color: #a6f750 ;
+    cursor: pointer;
+
+}
+
